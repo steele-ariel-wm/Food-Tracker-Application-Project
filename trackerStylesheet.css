@@ -1,5 +1,5 @@
 html {
-    background-image: url('foodtracker.jpg');
+    background-image: url('food.jpg');
     background-repeat: round;
 
 }
@@ -11,21 +11,27 @@ html {
     width: 100%;
     align-self: center;
     border: solid black 5px;
+    background-color: #27b3cf;
 }
 #tableResults td{
     width: 200px;
     text-align: center;
+    background-color: #27b3cf;
 }
 #formm {
     line-height: 25px;
     margin: 0 auto;
     padding-bottom: 20px;
-    text-align: justify;
+    text-align: center;
     width: 100%;
     align-self: center;
     border: solid black 5px;
+    background-color: #27b3cf;
 }
 th {
     width: 200px;
     text-align: center;
+}
+#headerr {
+    background-color: #27b3cf;
 }
