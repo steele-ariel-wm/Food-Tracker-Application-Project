@@ -1,12 +1,20 @@
+html {
+    background-image: url('foodtracker.jpg');
+    background-repeat: round;
+
+}
 #tableResults {
     line-height: 30px;
     margin: 0 auto;
     padding-bottom: 20px;
-    text-align: center;
+    text-align: justify;
     width: 100%;
-    background-color: #5BC0BE;
     align-self: center;
     border: solid black 5px;
+}
+#tableResults td{
+    width: 200px;
+    text-align: center;
 }
 #formm {
     line-height: 25px;
@@ -14,10 +22,10 @@
     padding-bottom: 20px;
     text-align: justify;
     width: 100%;
-    background-color: #5BC0BE;
     align-self: center;
     border: solid black 5px;
 }
 th {
-    padding: 20px;
+    width: 200px;
+    text-align: center;
 }

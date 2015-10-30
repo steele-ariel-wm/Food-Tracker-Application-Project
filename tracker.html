@@ -14,7 +14,7 @@
         var expirationDate = $('#expirationDate').val();
         var servingSize = $('#size').val();
 
-        $('#resultsTable').append('<tr><td>' + dateConsumed +'</td><td>' + food + '</td> <td>' + category + '</td><td>' + expirationDate + '</td><td>' + servingSize + '</td></tr>');
+        $('#tableResults').append('<tr><td>' + dateConsumed +'</td><td>' + food + '</td> <td>' + category + '</td><td>' + expirationDate + '</td><td>' + servingSize + '</td></tr>');
     }
 </script>
 <body>
@@ -40,7 +40,7 @@
 </form></div>
 <br>
 <div id="tableResults">
-<table id="resultsTable">
+<table>
     <tr>
         <th>Date Consumed</th>
         <th>Food Name</th>
