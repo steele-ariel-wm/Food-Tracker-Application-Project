@@ -1,0 +1,23 @@
+#tableResults {
+    line-height: 30px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    background-color: #5BC0BE;
+    align-self: center;
+    border: solid black 5px;
+}
+#formm {
+    line-height: 25px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-align: justify;
+    width: 100%;
+    background-color: #5BC0BE;
+    align-self: center;
+    border: solid black 5px;
+}
+th {
+    padding: 20px;
+}

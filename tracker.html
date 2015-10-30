@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="trackerStylesheet.css">
+    <script src="jquery-2.1.4.min%20(1).js"></script>
+    <script type="text/javascript" src="trackerJs.js"></script>
+    <title> Food Tracker </title>
+</head>
+<script>
+    function submitButton() {
+        var dateConsumed = $('#dateConsumed').val();
+        var food = $('#foodName').val();
+        var category = $('#category').val();
+        var expirationDate = $('#expirationDate').val();
+        var servingSize = $('#size').val();
+
+        $('#resultsTable').append('<tr><td>' + dateConsumed +'</td><td>' + food + '</td> <td>' + category + '</td><td>' + expirationDate + '</td><td>' + servingSize + '</td></tr>');
+    }
+</script>
+<body>
+<center>
+    <h1> Food Tracker </h1>
+</center>
+<div id="formm">
+<form>
+    Date Item was Consumed: <input type="date" id="dateConsumed"><br><br>
+    What you had to eat/drink: <input type="text" id="foodName">
+    <select name="What did you have?" id="category">
+        <option value="what">Category</option>
+        <option value="drink">Drink</option>
+        <option value="snack">Snack</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+        <option value="dessert">Dessert</option>
+    </select> <br><br>
+    Expiration Date: <input type="date" id="expirationDate"> <br><br>
+    Serving Size/Portion: <input type="servingsize" id="size"><br><br>
+    <button type="button" onclick="submitButton()">Submit</button>
+</form></div>
+<br>
+<div id="tableResults">
+<table id="resultsTable">
+    <tr>
+        <th>Date Consumed</th>
+        <th>Food Name</th>
+        <th>Category</th>
+        <th>Expiration Date</th>
+        <th>Serving Size</th>
+    </tr>
+</table>
+</div>
+</body>
+</html>
