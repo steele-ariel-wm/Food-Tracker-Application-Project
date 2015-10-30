@@ -34,4 +34,7 @@ th {
 }
 #headerr {
     background-color: #27b3cf;
+    padding-bottom: 5px;
+    border: solid black 5px;
+
 }
